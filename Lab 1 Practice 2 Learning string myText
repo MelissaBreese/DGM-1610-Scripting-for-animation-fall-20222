@@ -1,0 +1,19 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string name = "Joesph";
+      Console.WriteLine("hello " + name);
+      int age;
+	  age = 15;
+	  Console.WriteLine(age);
+      string myText = "My Favorite Color Is Blue And I Go To UVU. I am figuring out how C# works. So I can basically write a paragraph in myText if I wanted, interesting.... Now I just need to figure out how to do multiple strings, then I'd be all set from what I'm guessing lol.";
+      Console.WriteLine(myText);
+   
+     } 
+  }
+}
