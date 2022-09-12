@@ -1,0 +1,25 @@
+//Use this file to store your work to demonstrate your understanding of operators
+//Make sure your work is different from the instructors examples or your peers
+
+public class ClassExample
+{
+    
+}
+
+public class ClassWithVariables
+{
+    public int number = 2;
+    public string userName = "Liz";
+    public float myNum = 7.58F;
+    Console.WriteLine(myNum);
+    double myNum = 25.78;
+    Console.WriteLine(myNum);
+}
+
+public class ClassWithFunctions
+{
+    public void RunFunction()
+    {
+        Console.WriteLine("So far this is the easiest part in this section of coding that I actually understand is in this line. The rest is a real struggle and to be honest, mostly me guessing.");
+    }
+}   
