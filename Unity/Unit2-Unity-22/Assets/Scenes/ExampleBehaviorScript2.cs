@@ -8,15 +8,15 @@ public class ExampleBehaviorScript2 : MonoBehaviour
    {
         if (Input.GetButtonDown(KeyCode.P))
         {
-            GetComponent<Renderer> ().material.color = Color.purple;
+            GetComponent<Renderer> ().material.color = Color.Purple;
         }
         if (Input.GetButtonDown(KeyCode.O))
         {
-            GetComponent<Renderer> ().material.color = Color.orange;
+            GetComponent<Renderer> ().material.color = Color.Orange;
         }
         if (Input.GetButtonDown(KeyCode.Y))
         {
-            GetComponent<Renderer> ().material.color = Color.yellow;
+            GetComponent<Renderer> ().material.color = Color.Yellow;
         }
    }
 }
