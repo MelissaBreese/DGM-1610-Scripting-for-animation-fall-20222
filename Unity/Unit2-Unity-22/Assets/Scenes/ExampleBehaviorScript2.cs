@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class ExampleBehaviorScript2 : MonoBehaviour
 {
-   void update ()
+   public void update ()
    {
-        if Input.GetKeyDown(KeyCode.P))
+        if (Input.GetButtonDown(KeyCode.P))
         {
             GetComponent<Renderer> ().material.color = Color.purple;
         }
-        if Input.GetKeyDown(KeyCode.O))
+        if (Input.GetButtonDown(KeyCode.O))
         {
             GetComponent<Renderer> ().material.color = Color.orange;
         }
-        if Input.GetKeyDown(KeyCode.Y))
+        if (Input.GetButtonDown(KeyCode.Y))
         {
             GetComponent<Renderer> ().material.color = Color.yellow;
         }
