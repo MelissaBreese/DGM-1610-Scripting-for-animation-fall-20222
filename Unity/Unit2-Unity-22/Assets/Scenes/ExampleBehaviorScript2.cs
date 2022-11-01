@@ -5,17 +5,17 @@ public class ExampleBehaviorScript2 : MonoBehaviour
 {
     void update ()
    {
-        if (Input.GetKeyDown(UnityEngine.KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.C))
         {
-            GetComponent<Renderer> ().material.color = Color.Purple;
+            GetComponent<Renderer> ().material.color = Color.cyan;
         }
-        if (Input.GetKeyDown(UnityEngine.KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.M))
         {
-            GetComponent<Renderer> ().material.color = Color.Orange;
+            GetComponent<Renderer> ().material.color = Color.magenta;
         }
-        if (Input.GetKeyDown(UnityEngine.KeyCode.Y))
+        if (Input.GetKeyDown(KeyCode.Y))
         {
-            GetComponent<Renderer> ().material.color = Color.Yellow;
+            GetComponent<Renderer> ().material.color = Color.yellow;
         }
    }
 }
