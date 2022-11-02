@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenuAttribute()]
+[CreateAssetMenuAttribute]
 public class floatData : ScriptableObject
 {
    public float value;
