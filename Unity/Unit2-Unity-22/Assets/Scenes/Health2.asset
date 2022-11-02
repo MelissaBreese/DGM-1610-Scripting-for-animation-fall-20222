@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Health
-  m_EditorClassIdentifier: Assembly-CSharp::floatData
+  m_Script: {fileID: 11500000, guid: f7a7c6632bf8eef44b4aedeece0e4563, type: 3}
+  m_Name: Health2
+  m_EditorClassIdentifier: 
   value: 0
